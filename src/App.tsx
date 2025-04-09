@@ -33,7 +33,7 @@ function App() {
             <div className="flex items-center">
               {/* Logo placeholder */}
               <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-                <img src="../lib/logo.jpg" alt="Logo"  />
+                <img src="/lib/logo.jpg" alt="Logo"  />
               </div>
             </div>
 
@@ -105,7 +105,7 @@ function App() {
       <section id="home" className="pt-16">
         <div className="relative">
           <img
-            src="../lib/college.jpg"
+            src="/lib/college.jpg"
             alt="College Campus"
             className="w-full h-[600px] object-cover"
           />
@@ -137,7 +137,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
-                src="../lib/sbmp.jpg"
+                src="/lib/sbmp.jpg"
                 alt="College Building"
                 className="rounded-lg shadow-lg"
               />
@@ -168,7 +168,7 @@ S.B.M. Polytechnic has created a name for itself by maintaining high standard of
           <div className="relative">
             {/* You can comment out or remove the image tag below */}
             {/* <img
-              src="../lib/college.jpg"
+              src="/lib/college.jpg"
               alt="College Campus"
               className="w-full h-[600px] object-cover"
             /> */}
@@ -226,7 +226,7 @@ S.B.M. Polytechnic has created a name for itself by maintaining high standard of
           <div className="grid md:grid-cols-2 gap-8">
             {/* Degree Program */}
             <div className="bg-white rounded-lg shadow-lg p-6">
-              <div className=" bg-gray-200 rounded-lg mb-4"><img src="../lib/IMG_6251.jpg" alt="Degree"  height="100px"  /></div>
+              <div className=" bg-gray-200 rounded-lg mb-4"><img src="/lib/IMG_6251.JPG" alt="Degree"  height="100px"  /></div>
               <h3 className="text-2xl font-bold mb-4">Degree Program</h3>
               <p className="text-gray-600 mb-4">
                 Our comprehensive degree program offers advanced technical education with a focus on practical skills and theoretical knowledge.
@@ -237,7 +237,7 @@ S.B.M. Polytechnic has created a name for itself by maintaining high standard of
 
             {/* Diploma Program */}
             <div className="bg-white rounded-lg shadow-lg p-6">
-              <div className="bg-gray-200 rounded-lg mb-4"><img src="../lib/IMG_6252.jpg" alt="Diploma"  height="100px"  /></div>
+              <div className="bg-gray-200 rounded-lg mb-4"><img src="/lib/IMG_6252.JPG" alt="Diploma"  height="100px"  /></div>
               <h3 className="text-2xl font-bold mb-4">Diploma Program</h3>
               <p className="text-gray-600 mb-4">
                 Our diploma programs provide hands-on training and industry-relevant skills to prepare students for successful careers.
