@@ -112,7 +112,7 @@ function App() {
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white px-4">
               <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                Welcome to Shri Bhagubhai Mafatlal Polytechnic
+                Welcome to Shri Bhagubhai Mafatlal Polytechnic and College of Engineering
               </h1>
               <p className="text-xl md:text-2xl mb-8">
                 Empowering Education for a Bright Future
@@ -132,7 +132,7 @@ function App() {
       <section id="about" className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
-            About Shri Bhagubhai Mafatlal Polytechnic
+            About Shri Bhagubhai Mafatlal Polytechnic and College of Engineering
           </h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
@@ -329,7 +329,7 @@ S.B.M. Polytechnic has created a name for itself by maintaining high standard of
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p>© 2025 Shree Bhagubhai Mafatlal Polytechnic. All rights reserved.</p>
+              <p>© 2025 Shree Bhagubhai Mafatlal Polytechnic and College of Engineering. All rights reserved.</p>
             </div>
             <div className="flex space-x-4">
               <a href="https://www.facebook.com/share/15xyrGTPaF/?mibextid=wwXIfr" className="hover:text-blue-400">
