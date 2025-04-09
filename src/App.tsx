@@ -162,50 +162,51 @@ S.B.M. Polytechnic has created a name for itself by maintaining high standard of
         </div>
       </section>
 
+
 {/* Vision and Mission Section */}
-{/* Vision and Mission Section */}
-<section id="vision-mission" className="py-16 md:py-20 px-6 md:px-4 lg:px-8">
-  <div className="relative">
-    <div className="absolute inset-0 bg-white bg-opacity-70 flex flex-col items-center justify-center min-h-[300px] md:min-h-[400px]">
-      <div className="text-center text-black px-4 mb-8">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-          Our Vision and Mission
-        </h1>
-        <div className="md:text-left">
-          <h2 className="text-xl md:text-2xl font-semibold mb-3">Our Vision</h2>
-          <p className="text-lg md:text-xl mb-5">
-            SBM Polytechnic aims to be a leading institute that gives you the
-            technical skills you need for the future.
-          </p>
-          <h2 className="text-xl md:text-2xl font-semibold mb-3">Our Mission</h2>
-          <ul className="list-disc list-inside text-lg md:text-xl">
-            <li className="mb-2">
-              We'll give you awesome classrooms and the newest tech to help you
-              learn best.
-            </li>
-            <li className="mb-2">
-              We'll make sure what you learn is what companies need, by talking
-              to them and updating our courses.
-            </li>
-            <li className="mb-2">
-              We want our teachers to be super good at teaching and discovering
-              new things, so we'll help them grow.
-            </li>
-            <li className="mb-2">
-              We'll have fun activities outside of studying and connect you with
-              companies so you're ready for a job and a good citizen.
-            </li>
-          </ul>
-        </div>
-        {/* You can add a button here if you want */}
-        {/* <a
-          href="#about"
-          className="bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition duration-300 mt-6 inline-block"
-        >
-          Learn More About Us
-        </a> */}
+<section id="vision-mission" className="py-16 md:py-20 px-6 md:px-4 lg:px-8 bg-gray-50">
+  <div className="max-w-7xl mx-auto text-center md:text-left">
+    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-blue-700 mb-8">
+      Our Vision and Mission
+    </h2>
+    <div className="grid md:grid-cols-2 gap-8 items-start">
+      <div>
+        <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-4">Our Vision</h3>
+        <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+          SBM Polytechnic aims to be a leading institute, giving you the best
+          technical skills to shine in the future. We want to be known for
+          helping you become really good at what you do!
+        </p>
+      </div>
+      <div>
+        <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>
+        <ul className="list-disc list-inside text-lg md:text-xl text-gray-700 leading-relaxed">
+          <li className="mb-3">
+            We'll give you awesome classrooms and the newest tech to make learning
+            exciting and effective.
+          </li>
+          <li className="mb-3">
+            We'll work closely with companies to make sure what you learn is exactly
+            what they need, so you're ready for a great job.
+          </li>
+          <li className="mb-3">
+            We'll support our teachers to be the best they can be, always learning
+            new things to teach you better.
+          </li>
+          <li className="mb-3">
+            We'll have fun activities and connect you with the real world so you
+            grow not just as a student, but as someone ready for anything!
+          </li>
+        </ul>
       </div>
     </div>
+    {/* Optional: A button to link to more info */}
+    {/* <a
+      href="#about"
+      className="bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition duration-300 mt-8 inline-block"
+    >
+      Learn More About Our College
+    </a> */}
   </div>
 </section>
       {/* Programmes Section */}
