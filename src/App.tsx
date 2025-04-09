@@ -164,59 +164,50 @@ S.B.M. Polytechnic has created a name for itself by maintaining high standard of
 
 {/* Vision and Mission Section */}
 {/* Vision and Mission Section */}
-<section id="vision-mission" className="py-20 px-4">
-          <div className="relative">
-            {/* You can comment out or remove the image tag below */}
-            {/* <img
-              src="/lib/college.jpg"
-              alt="College Campus"
-              className="w-full h-[600px] object-cover"
-            /> */}
-            <div className="absolute inset-0 bg-white bg-opacity-50 flex flex-col items-center justify-center min-h-[400px]"> {/* Added min-h-[400px] */}
-              <div className="text-center text-black px-4 mb-8">
-                <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                  Vision and Mission
-                </h1>
-                <div className="text-left">
-                  <h2 className="text-2xl font-semibold mb-2">Vision</h2>
-                  <p className="text-xl mb-4">
-                    SBM Polytechnic aspires to be the lead institute in providing
-                    need based technical education.
-                  </p>
-                  <h2 className="text-2xl font-semibold mb-2">Mission</h2>
-                  <ul className="list-disc list-inside text-xl">
-                    <li>
-                      To provide state-of-the-art infrastructure and latest
-                      equipments for providing a stimulating learning environment.
-                    </li>
-                    <li>
-                      To prepare students to meet the dynamic needs of the
-                      industry by periodic reviewing and upgradation of curriculum
-                      through an interactive process with industry.
-                    </li>
-                    <li>
-                      To inculcate a spirit of excellence in terms of academic
-                      performance, research and innovation in faculty by providing
-                      appropriate support and incentive systems.
-                    </li>
-                    <li>
-                      To promote and support Co-Curricular, extra-curricular
-                      activities and industry interaction to make students
-                      socially sensitive and employable.
-                    </li>
-                  </ul>
-                </div>
-                {/* <a
-                  href="#about"
-                  className="bg-blue-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition duration-300"
-                >
-                  Learn More About Us
-                </a> */}
-              </div>
-            </div>
-          </div>
-        </section>
-
+<section id="vision-mission" className="py-16 md:py-20 px-6 md:px-4 lg:px-8">
+  <div className="relative">
+    <div className="absolute inset-0 bg-white bg-opacity-70 flex flex-col items-center justify-center min-h-[300px] md:min-h-[400px]">
+      <div className="text-center text-black px-4 mb-8">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+          Our Vision and Mission
+        </h1>
+        <div className="md:text-left">
+          <h2 className="text-xl md:text-2xl font-semibold mb-3">Our Vision</h2>
+          <p className="text-lg md:text-xl mb-5">
+            SBM Polytechnic aims to be a leading institute that gives you the
+            technical skills you need for the future.
+          </p>
+          <h2 className="text-xl md:text-2xl font-semibold mb-3">Our Mission</h2>
+          <ul className="list-disc list-inside text-lg md:text-xl">
+            <li className="mb-2">
+              We'll give you awesome classrooms and the newest tech to help you
+              learn best.
+            </li>
+            <li className="mb-2">
+              We'll make sure what you learn is what companies need, by talking
+              to them and updating our courses.
+            </li>
+            <li className="mb-2">
+              We want our teachers to be super good at teaching and discovering
+              new things, so we'll help them grow.
+            </li>
+            <li className="mb-2">
+              We'll have fun activities outside of studying and connect you with
+              companies so you're ready for a job and a good citizen.
+            </li>
+          </ul>
+        </div>
+        {/* You can add a button here if you want */}
+        {/* <a
+          href="#about"
+          className="bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition duration-300 mt-6 inline-block"
+        >
+          Learn More About Us
+        </a> */}
+      </div>
+    </div>
+  </div>
+</section>
       {/* Programmes Section */}
       <section id="programmes" className="py-16 px-4 mt-72">
         <div className="max-w-7xl mx-auto">
@@ -340,16 +331,10 @@ S.B.M. Polytechnic has created a name for itself by maintaining high standard of
               <p>© 2025 Shree Bhagubhai Mafatlal Polytechnic. All rights reserved.</p>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-blue-400">
+              <a href="https://www.facebook.com/share/15xyrGTPaF/?mibextid=wwXIfr" className="hover:text-blue-400">
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="hover:text-blue-400">
-                <Twitter className="h-6 w-6" />
-              </a>
-              <a href="#" className="hover:text-blue-400">
-                <Linkedin className="h-6 w-6" />
-              </a>
-              <a href="#" className="hover:text-blue-400">
+              <a href="https://www.instagram.com/bhagubhaipolytechnic?igsh=Z2N0NHg2a256ZDNl&utm_source=qr" className="hover:text-blue-400">
                 <Instagram className="h-6 w-6" />
               </a>
             </div>
